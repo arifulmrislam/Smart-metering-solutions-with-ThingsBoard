@@ -19,3 +19,36 @@ focus on building particular smart metering use cases instead, saving time and a
 Generate random values use ThingsBoard rule chains,
 
 <img src= "Rule Chains.png" width=800>
+
+Root rule chain,
+
+<img src= "root_rule_chain.png" width=800>
+
+Alarm and Notification
+
+I also created alarm and notification for demo dashboard using ThingsBoard rule chains.
+
+<img src= "Alarm and Notification.png" width=800>
+
+Calculate total energy consumption,
+
+<img src= "calculate_total_energy_for_district_dashboard.png" width=800>
+
+<img src= "Energy_Consumption_WB.png" width=800>
+
+Smart metering dashboard,
+
+<img src= "Smart metering dashboard.png" width=800>
+
+Live Demo: https://myiot.polisea.ro/dashboard/e13d0a50-04ad-11ec-9fc0-d7ec4e17a89a?publicId=7cb71a20-041d-11ec-9fc0-d7ec4e17a89a
+
+Visit our official website: https://polisea.ro/aiot/ 
+
+🚩 Connect with me on social
+- LinkedIn: https://www.linkedin.com/in/ariful-islam-arif-2987b51a3/
+- Twitter: https://twitter.com/arifulislam301
+- Instagram: https://www.instagram.com/ariful_mr_islam/
+
+🔔 Subscribe to my YouTube channel
+https://www.youtube.com/channel/UCED68cm6nHaAlAk0h9I3yAQ
+
