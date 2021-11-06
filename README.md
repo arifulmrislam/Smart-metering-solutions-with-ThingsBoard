@@ -40,7 +40,7 @@ Smart metering dashboard,
 
 <img src= "Smart metering dashboard.png" width=800>
 
-Live Demo: https://myiot.polisea.ro/dashboard/e13d0a50-04ad-11ec-9fc0-d7ec4e17a89a?publicId=7cb71a20-041d-11ec-9fc0-d7ec4e17a89a
+Live Demo: https://myiot.polisea.ro/dashboard/e917eb00-0589-11ec-9fc0-d7ec4e17a89a?publicId=7cb71a20-041d-11ec-9fc0-d7ec4e17a89a
 
 Visit our official website: https://polisea.ro/aiot/ 
 
