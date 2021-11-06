@@ -1,0 +1,96 @@
+{
+  "ruleChain": {
+    "additionalInfo": {
+      "description": ""
+    },
+    "name": "Calculate total Energy for district dashboard",
+    "firstRuleNodeId": null,
+    "root": false,
+    "debugMode": false,
+    "configuration": null
+  },
+  "metadata": {
+    "firstNodeIndex": 0,
+    "nodes": [
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 80,
+          "layoutY": 246
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode",
+        "name": "message type switch",
+        "debugMode": false,
+        "configuration": {
+          "version": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 385,
+          "layoutY": 239
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetAttributesNode",
+        "name": "Fetch",
+        "debugMode": false,
+        "configuration": {
+          "tellFailureIfAbsent": true,
+          "clientAttributeNames": [],
+          "sharedAttributeNames": [],
+          "serverAttributeNames": [],
+          "latestTsKeyNames": [
+            "Energy_Meter_A",
+            "Energy_Meter_B",
+            "Energy_Meter_C"
+          ],
+          "getLatestValueWithTs": false
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 887,
+          "layoutY": 237
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode",
+        "name": "TS",
+        "debugMode": false,
+        "configuration": {
+          "defaultTTL": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 653,
+          "layoutY": 238
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "Energy Consumption",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": " var newMsg = {};\r\n        \r\n        newMsg.Energy_Comsumtion_WB = parseFloat(Math.abs(msg.Energy_Meter_A + msg.Energy_Meter_B + msg.Energy_Meter_C )).toFixed(2);\r\n        \r\n        return {\r\n        \tmsg: newMsg,\r\n        \tmetadata: newMsg,\r\n        \tmsgType: msgType\r\n        };"
+        }
+      }
+    ],
+    "connections": [
+      {
+        "fromIndex": 0,
+        "toIndex": 1,
+        "type": "Post telemetry"
+      },
+      {
+        "fromIndex": 1,
+        "toIndex": 3,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 3,
+        "toIndex": 2,
+        "type": "Success"
+      }
+    ],
+    "ruleChainConnections": null
+  }
+}
