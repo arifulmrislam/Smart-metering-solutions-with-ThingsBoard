@@ -38,7 +38,7 @@ Calculate total energy consumption,
 
 Smart metering dashboard,
 
-<img src= "Smart metering dashboard.png" width=800>
+<img src= "Smart metering dashboard.png" width=1000>
 
 Live Demo: [Smart Metering Dashboard](https://myiot.polisea.ro/dashboard/e917eb00-0589-11ec-9fc0-d7ec4e17a89a?publicId=7cb71a20-041d-11ec-9fc0-d7ec4e17a89a)
 
