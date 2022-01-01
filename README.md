@@ -1,7 +1,7 @@
 # Smart-metering-solutions-with-ThingsBoard
 IoT smart metering solutions and smart meter data visualization with ThingsBoard
 
-IoT and smart meters
+## IoT and smart meters
 Traditionally being a part of the electrical grid infrastructure, a smart meter is an electronic device that allows for remote monitoring and recording of energy consumption. 
 However, in the age of IoT and IoT platforms, standalone smart meters give way to more advanced and multi-purpose smart metering solutions. 
 These solutions offer a broader range of remote monitoring and alerting capabilities as well as provide powerful data analytics tools to 
@@ -16,27 +16,27 @@ but also set up custom visualization dashboards, configure user alerts and notif
 Another critical advantage is the cost of smart metering implementation. Using an IoT platform allows you to have all the necessary functionality right away and 
 focus on building particular smart metering use cases instead, saving time and avoiding the risks associated with in-house IoT development.
 
-Generate random values use ThingsBoard rule chains,
+## Generate random values use ThingsBoard rule chains,
 
 <img src= "Rule Chains.png" width=800>
 
-Root rule chain,
+## Root rule chain,
 
 <img src= "root_rule_chain.png" width=800>
 
-Alarm and Notification
+## Alarm and Notification
 
 I also created alarm and notification for demo dashboard using ThingsBoard rule chains.
 
 <img src= "Alarm and Notification.png" width=800>
 
-Calculate total energy consumption,
+## Calculate total energy consumption,
 
 <img src= "calculate_total_energy_for_district_dashboard.png" width=800>
 
 <img src= "Energy_Consumption_WB.png" width=800>
 
-Smart metering dashboard,
+## Smart metering dashboard,
 
 <img src= "Smart metering dashboard.png" width=1000>
 
