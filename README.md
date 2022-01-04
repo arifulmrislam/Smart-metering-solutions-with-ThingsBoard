@@ -16,38 +16,38 @@ but also set up custom visualization dashboards, configure user alerts and notif
 - Another critical advantage is the cost of smart metering implementation. Using an IoT platform allows you to have all the necessary functionality right away and 
 focus on building particular smart metering use cases instead, saving time and avoiding the risks associated with in-house IoT development.
 
-`Generate random values use ThingsBoard rule chains`
+## `Generate random values use ThingsBoard rule chains`
 
 <img src= "Rule Chains.png" width=800>
 
-`Root rule chain,`
+## `Root rule chain`
 
 <img src= "root_rule_chain.png" width=800>
 
-`Alarm and Notification`
+## `Alarm and Notification`
 
 - I also created alarm and notification for demo dashboard using ThingsBoard rule chains.
 
 <img src= "Alarm and Notification.png" width=800>
 
-`Calculate total energy consumption`
+## `Calculate total energy consumption`
 
 <img src= "calculate_total_energy_for_district_dashboard.png" width=800>
 
 <img src= "Energy_Consumption_WB.png" width=800>
 
-`Smart metering dashboard`
+## `Smart metering dashboard`
 
 <img src= "Smart metering dashboard.png" width=1000>
 
-Live Demo: [Smart Metering Dashboard](https://myiot.polisea.ro/dashboard/e917eb00-0589-11ec-9fc0-d7ec4e17a89a?publicId=7cb71a20-041d-11ec-9fc0-d7ec4e17a89a)
+`Live Demo:` [Smart Metering Dashboard](https://myiot.polisea.ro/dashboard/e917eb00-0589-11ec-9fc0-d7ec4e17a89a?publicId=7cb71a20-041d-11ec-9fc0-d7ec4e17a89a)
 
-Visit our official website: [Polisea S.A](https://polisea.ro/aiot/) 
+`Visit our official website:` [Polisea S.A](https://polisea.ro/aiot/) 
 
-🚩 Connect with me on social
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ariful-islam-arif-2987b51a3/)
-- Twitter: [Twitter](https://twitter.com/arifulislam301)
-- Instagram: [Instagram](https://www.instagram.com/ariful_mr_islam/)
+🚩 `Connect with me on social`
+- `LinkedIn:` [LinkedIn](https://www.linkedin.com/in/ariful-islam-arif-2987b51a3/)
+- `Twitter:` [Twitter](https://twitter.com/arifulislam301)
+- `Instagram:` [Instagram](https://www.instagram.com/ariful_mr_islam/)
 
-🔔 Subscribe to my YouTube channel: [YouTube](https://www.youtube.com/channel/UCED68cm6nHaAlAk0h9I3yAQ)
+🔔 `Subscribe to my YouTube channel:` [YouTube](https://www.youtube.com/channel/UCED68cm6nHaAlAk0h9I3yAQ)
 
