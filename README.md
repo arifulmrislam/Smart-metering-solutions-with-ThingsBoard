@@ -1,7 +1,7 @@
 # Smart-metering-solutions-with-ThingsBoard
 - IoT smart metering solutions and smart meter data visualization with ThingsBoard
 
-`IoT and smart meters`
+## `IoT and smart meters`
 - Traditionally being a part of the electrical grid infrastructure, a smart meter is an electronic device that allows for remote monitoring and recording of energy consumption. 
 However, in the age of IoT and IoT platforms, standalone smart meters give way to more advanced and multi-purpose smart metering solutions. 
 These solutions offer a broader range of remote monitoring and alerting capabilities as well as provide powerful data analytics tools to 
